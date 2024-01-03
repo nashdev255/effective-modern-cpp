@@ -15,7 +15,7 @@ class DemoClass {
     template <typename U>
     DemoClass<T>(const DemoClass<U>& dc) : x(static_cast<T>(dc.x)), y(static_cast<T>(dc.y)), str(dc.str) {}
 
-    fn() { std::cout << str << std::endl; }
+    void fn() { std::cout << str << std::endl; }
 };
 
 using DemoClassi = DemoClass<int>;
