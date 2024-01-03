@@ -1,4 +1,4 @@
-# effective-modern-cpp
+# Effective Modern C++
 Learn how to write a effective and modern code with reference to Effective Modern C++ written by Scott Meyers.
 
 - [Smart pointers](#Smart-pointers)
